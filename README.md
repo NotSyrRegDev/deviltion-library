@@ -49,6 +49,23 @@ One you have that you will have your own api secret key then follow next step
 
 ```
 
+### Open [Firebase Console](https://console.firebase.google.com/) and create new project with the following
+
+- Enable Authentication Via Google
+
+### Add The Necessary Enviroment Variables To Use Firebase
+
+```
+REACT_APP_FIREBASE_API_KEY = 'your_firebase_api_key'
+REACT_APP_FIREBASE_AUTH_DOMAIN = 'your_firebase_auth_domain'
+REACT_APP_FIREBASE_PROJECT_ID = 'your_firebase_proejct_id'
+REACT_APP_FIREBASE_STOARGE_BUCKET = 'your_firebase_stoarge_bucket'
+REACT_APP_FIREBASE_MESSAGE_SENDER_ID = 'your_firebase_message_sender_id'
+REACT_APP_FIREBASE_APP_ID = 'your_firebase_app_id'
+REACT_APP_FIREBASE_MEASURE_ID = 'your_firebase_measure_id'
+```
+
+
 ### Run The Application
 
 ```sh
