@@ -10,7 +10,7 @@ and see the top books & best sellers
 
 
 
-![N|Solid](https://i.ibb.co/bRGmy8b/Unsplash-Img.png](https://i.ibb.co/gJBZS98/2022-07-16-180058.png)
+![N|Solid](https://i.ibb.co/gJBZS98/2022-07-16-180058.png)
 
 
 ### Viewing Top Books
