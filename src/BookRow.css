@@ -1,0 +1,14 @@
+.authorCover__title {color: #333;}
+.f-sv { display: flex; justify-content: space-around; align-items: baseline; }
+.book-single { margin: 1.5rem; transition: all 0.3s ease-in-out;}
+.book-single:hover { transform: translateY(-1rem);  }
+.book-single:hover .bookCover__img{border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+.book-single:hover .bookCover__img:hover{transform: scale(1.1); }
+
+@media (max-width: 700px) {
+    .books_list_grid .g-col-3 { grid-template-columns: repeat(2 , 1fr); }
+}
+
+@media (max-width: 450px) {
+    .books_list_grid .g-col-3 { grid-template-columns: repeat(1 , 1fr); }
+}

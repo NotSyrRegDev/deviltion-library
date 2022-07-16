@@ -1,0 +1,5 @@
+.discoverPage { display: grid; }
+.g-col-3 { grid-template-columns: repeat(3 , 1fr); display: grid; }
+.hero-discover { margin: 0.5rem 10px;}
+.hero-discover img {  width: 100%; height: 400px !important; }
+

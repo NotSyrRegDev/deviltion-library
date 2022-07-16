@@ -1,0 +1,11 @@
+.popular-book-single { background: #f1fceb; margin-right: 1rem; margin-top: 5rem;  display: flex; align-items: center; transition: all 0.3s ease-in; padding-bottom:1rem ; }
+.popular-book-single:hover { transform: rotate(-5deg); border-bottom: 3px solid #482369; }
+.popular-bookCover__img { width: 180px; height: 300px; margin-right: 1.8rem; transform: translate(0.8rem , -2rem);  }
+.popular-bookCover__img:hover { border-radius: 5px; border-top: 5px solid #3e8cad; filter: blur(1.6px); }
+@media screen and (max-width: 760px) {
+    .g-col-2 { grid-template-columns: repeat(1 , 1fr) !important; }
+}
+
+@media (max-width: 550px) {
+    .popular-book-single { margin-right: 0; }
+}

@@ -1,0 +1,36 @@
+.btn-book-now { font-weight: bold; border: none; outline: none;  background: #ff5498; text-align: center; color: #fff; padding: 0.8rem 2.2rem; font-size: 13px;  }
+.f-sv { display: flex; justify-content: space-evenly; align-items: center; }
+
+.g-col-3 { display: grid; grid-template-columns: repeat(3 , 1fr); }
+.top-single-book__image { width: 50%; height: 300px; margin-right: 1.5rem; }
+.top-single-book { margin: 1.8rem;}
+.top-book__title { font-size: 22px; color: #333; }
+
+.mt-3 {margin-top: 1.5rem; }
+.mt-2 {margin-top: 0.9rem; }
+.my-4 {margin: 2rem 0;}
+.author-colorize { color: #62ce3d; }
+
+@media screen and (max-width: 1250px ) {
+    .btn-book-now { padding: 0.4rem 1.4rem; }
+    .top-book__title { font-size: 16px; }
+    .top-single-book__image { width: 150px; }
+}
+
+@media screen and (max-width: 900px ) {
+    .btn-book-now { padding: 0.4rem 1.4rem; }
+    .top-book__title { font-size: 14px; }
+    .top-single-book__image { width: 150px; }
+    .topBooks { display: grid;}
+
+    .hero-discover img {
+        width: 100%;
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .topBooks h1 { font-size: 22px; }
+    .top-single-book .f-sv { flex-direction: column; }
+    .top-single-book { margin: 0.4rem;}
+}

@@ -1,0 +1,81 @@
+.navbar__library { display: flex; align-items: center; position: sticky; padding: 5px; top: 0; z-index: 1000; background: #fff; border-bottom: 3px solid #e0e0e0; justify-content: space-between; }
+.displayBlock { display: none !important; transition: all 0.5s ease-out; }
+.displayNone { display: none !important; }
+.donate-btn { display: inline-block; background: #a0f285 ; border: none; outline: none; font-size: 15px; color: #fff; padding: 10px 18px; margin-left: 12px; }
+.shop-btn { display: inline-block;
+    padding: 10px 18px;
+    background-color: #ff5c74;
+    color: #FFFFFF; border: none; margin: 0 10px; font-size: 15px;   }
+    .shop-btn:hover { background-color: #d14e62; }
+    .donate-btn:hover { background: #8bcf74 ; }
+.logo__library { height: 45px; object-fit: contain; margin-left: 15px; }
+.search-icon { margin-right: 5px;  color: gray; }
+
+.logo-div__library { display: flex; align-items: center; flex: 0.2;  }
+.search-div__library { display: flex; align-items: center; border: 1px solid #111; flex: 0.5; }
+.search-div__library > input { flex: 1; border: none;  outline: none; padding: 0.5rem 0; }
+
+.info-div__library { display: flex; align-items: center; flex: 0.3; margin: 0 1.5rem; }
+.user-profile {  height: 30px; margin-right: 8px; border-radius: 500px;}
+.profile-user {display: flex; align-items: center; justify-content: center; }
+.sidebar--block { height: 5px; width: 30px; background: #111 !important; margin: 5px 0; border-radius: 5px; }
+.username__profile { margin-top: -1px; font-size: 15px; }
+.login_btn { background: none; border: none; border-bottom: 2px solid #111; outline: none; padding: 10px 18px; color: #111; font-size: 15px; margin: 0 10px; cursor: pointer; }
+.login_btn:hover { background: #111; color: #fff; border: none; transition: background 0.5s ease-in; }
+.icon__library { height: 40px !important; width: 40px !important; margin: 0 25px; }
+
+@media screen and (max-width: 1150px) {
+    
+    
+    .logo__library { height: 45px; margin-right: 8px; }
+}
+
+@media screen and (max-width: 960px) {
+    .logo-div__library { flex: 0.2; }
+    .info-div__library  { flex: 0.6; }
+    .username__profile { margin-bottom: -5px;} .donate-btn { margin-left: 20px;  margin-right: 30px; }
+    .user-profile { margin-left: 10px;}
+}
+
+@media screen and (max-width: 850px) {
+    .search-div__library  input { margin: 0 0.5rem; }
+    .donate-btn { margin-left: 6px;  margin-right: 15px; padding: 5px 9px; }
+    .shop-btn {  padding: 5px 9px; margin: 0 2px; }
+   
+
+    .logo__library { height: 45px;}
+   
+    .icon__library { height: 25px !important; width: 25px !important; margin-left: 20px; margin-right: 5px;}
+    .user-profile {  height: 40px; margin-right: 10px; }
+    .username__profile { margin-bottom: -4px !important; font-size: 14px;}
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .logo-div__library { flex: 0.2; }
+    .search-div__library  { flex: 0.5; }
+    .info-div__library  { flex: 0.3; }
+    .donate-btn { display: none; }
+    .shop-btn { display: none; }
+
+  
+    
+    .icon__library { height: 25px !important; width: 25px !important; margin-left: 10px; margin-right: 5px;}
+    .user-profile {  height: 30px; margin-right: 6px; }
+    .username__profile { margin-bottom: -4px !important; font-size: 12px;}
+}
+
+@media (max-width: 450px) {
+    .login_btn { padding: 2px 0px; font-size: 13px; }
+    .logo-div__library { flex: 0.4; }
+    .search-div__library  { flex: 0.4; }
+    .info-div__library  { flex: 0.2; }
+}
+@media (max-width: 350px) {
+    .info-div__library  { flex: 0.3; }
+    .search-div__library { padding: 0; }
+    .logo__library { height: 25px;}
+   .sidebar--block { width: 18px; height: 3px; }
+}

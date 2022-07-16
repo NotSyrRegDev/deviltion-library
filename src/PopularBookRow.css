@@ -1,0 +1,13 @@
+.popularBookRow { display: grid; }
+.d-grid {  display: grid;}
+.g-col-2 { margin-top: 5rem; display: grid; grid-template-columns: repeat(2 , 1fr);}
+.category-sub { margin: 0.8rem 0; }
+.category-sub { margin: 0.8rem 0; }
+
+@media screen and (max-width: 900px) {
+    .category-sub { font-size: 13px; }
+}
+
+@media screen and (max-width: 890px) {
+    .category-sub { font-size: 11px; }
+}

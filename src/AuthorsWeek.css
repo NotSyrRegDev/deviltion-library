@@ -1,0 +1,28 @@
+.authorsWeek { flex: 0.2; background: #fff; }
+.d-flex { display: flex; align-items: center; margin-top: 3rem; transition: all 0.3s ease-in-out; }
+.d-flex:hover { transform: translateY(-1rem); }
+/* 
+.d-flex:hover .topAuthor__name { font-weight: bold;} */
+.d-flex:hover .topAuthor__img  {  }
+.topAuthor__img { border-radius: 500px; margin-right: 2rem;  transition: all 0.3s ease-in;}
+.topAuthor__img:hover { transform: scale(1.2);  }
+.authorsWeek { margin: 6rem 0; }
+.topAuthor__name  {transition: all 0.3s ease-in;}
+
+@media screen and (max-width: 990px) {
+    .topAuthor__img { width: 80px; }
+    .topAuthor__name { font-size: 14px; }
+    .headline--category { font-size: 19px; }
+}
+@media screen and (max-width: 800px) {
+    .topAuthor__img { width: 70px;  margin-right: 1rem; }
+    .topAuthor__name { font-size: 14px; }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .topAuthor__img { width: 60px; }
+    .topAuthor__name { font-size: 13px; }
+    .headline--category { font-size: 15px; }
+   
+}

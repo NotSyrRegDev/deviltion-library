@@ -1,0 +1,13 @@
+.popular-books { flex: 0.8; margin: 0 2.5rem;  margin-top: 6rem; }
+.f-sp { display: flex; justify-content: space-between; align-items: center; }
+.categories-box { display: flex; flex-wrap: nowrap;}
+.categories-box > h6 {margin-right: 1.8rem; padding-top: 2rem; font-size: 18px; font-weight: lighter; margin-top: 0; margin-bottom: 0;  color: #000; padding: 0.6rem; }
+
+.category-sub:hover { position: relative; border-bottom: 4px solid #3e8cad; height: 60px;}
+
+
+@media (max-width: 550px) {
+    .popular-books { margin: 0 0rem; }
+}
+
+  
